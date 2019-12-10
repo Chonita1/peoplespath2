@@ -1,0 +1,146 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+@media (min-width: 900px) {
+  #icons img {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (max-width: 899px) {
+  #icons img {
+    width: 30px;
+    height: 30px;
+  }
+}
+#icons{
+ width: 25%;
+ padding-top: 2%;
+ padding-right: 1%;
+}
+
+ul img:hover{
+	filter:brightness(120%);
+}
+
+.action-buttons{
+ position: relative;
+ background-color: lightgrey;
+ width: 100px;
+ height: 50px;
+ border-radius: 15px;
+ display:inline-block;
+ float:right;
+ margin-top: 20px;
+ margin-right: 10px;
+ text-align: center;
+ line-height: 50px;
+ }
+.last{
+ margin-right: 20px;
+}
+.action-buttons span{
+ /*padding-bottom: 90%;
+ display: inline-block;*/
+ font-weight: bold;
+}
+.two-lines{
+ padding-top: 0.4%;
+ line-height: 1.3;
+ display: inline-block;
+}
+#gethelp{
+ background-color: red;
+}
+#volunteer-now{
+  background-color: #fbe99c;
+}
+#donate{
+  background-color: #fb9b04;
+}
+#volunteer-now-2{
+  background-color: #fbe99c;
+  font-size: 13pt;
+  color: black;
+}
+#donate-2{
+  background-color: #fb9b04;
+  font-size: 13pt;
+  color: black;
+}
+
+#logo{
+ width: 40%;
+ }
+#logo-row{
+ padding-top: 10px;
+}
+
+/* column */
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 200px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column img {
+  width: 100%;
+  height: 100%;
+}
+
+.column#didyouknow {
+  width: 100%;
+  text-align: center;
+  font-size: 52pt;
+  padding-top: 40px;
+  height: 130px;
+  margin-bottom: 20px;
+}
+.column#youcanhelp {
+  width: 100%;
+  text-align: center;
+  color: red;
+  font-size: 45pt;
+  font-weight: 600;
+  padding-top: 50px;
+  height: 130px;
+  margin-bottom: 20px;
+  position: relative;
+  top: -60px;
+}
+footer {
+ height: 50px;
+ background-color: lightgray;
+ padding-top: 0;
+ padding-bottom: 3.5em;
+ margin: auto;
+}
+ footer *{
+ display: inline;
+ float: left;
+ width: 22%;
+ margin-top: 20px;
+ text-align: center;
+ line-height: 1.5;
+ font-weight: 500;
+ }
+ footer address {
+ width: 34%;
+ }
