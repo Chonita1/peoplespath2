@@ -1,0 +1,76 @@
+element.style {
+}
+header[role=banner] .primary-nav {
+    background-color: #1e2a30;
+    font-family: 'brandon_grotesquemedium','Helvetica',Arial,sans-serif;
+}
+.uppercase-text {
+    text-transform: uppercase;
+}
+header, nav, main, section, article, aside, footer {
+    display: block;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+    outline: 0;
+}
+user agent stylesheet
+nav {
+    display: block;
+}
+header[role=banner] {
+    position: relative;
+    background: #f7f6f0;
+    text-align: left;
+}
+header[role=banner], footer[role=contentinfo] {
+    font-family: 'brandon_grotesquebold','Helvetica',Arial,sans-serif;
+    font-size: 13px;
+}
+body {
+    color: #000;
+    font-family: 'PT Serif',serif;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    margin: 0;
+    line-height: 1.4;
+}
+html {
+    font-size: 62.5%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+}
+html {
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+user agent stylesheet
+html {
+    color: -internal-root-color;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+::selection {
+    background: #1e2a30;
+    color: #fff;
+    text-shadow: none;
+}

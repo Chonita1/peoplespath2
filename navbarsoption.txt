@@ -1,0 +1,64 @@
+<nav role="navigation" class="primary-nav uppercase-text" data-desktop="true">
+		<div class="grid-row">
+			<ul id="menu-primary-nav" class="menu"><li id="menu-item-1259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1259"><a href="https://www.coalitionforthehomeless.org/about-cfh/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-1685" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1685"><a href="https://www.coalitionforthehomeless.org/about-cfh/press/">Press</a></li>
+	<li id="menu-item-1684" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1684"><a href="https://www.coalitionforthehomeless.org/about-cfh/leadership/">Leadership</a></li>
+	<li id="menu-item-1682" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1682"><a href="https://www.coalitionforthehomeless.org/about-cfh/annual-report/">Annual Report</a></li>
+	<li id="menu-item-1686" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1686"><a href="https://www.coalitionforthehomeless.org/about-cfh/careers/">Careers</a></li>
+</ul>
+</li>
+<li id="menu-item-1696" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1696"><a href="https://www.coalitionforthehomeless.org/contact-us/">Contact Us</a></li>
+<li id="menu-item-1697" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1697"><a href="https://www.coalitionforthehomeless.org/our-programs/">Programs</a>
+<ul class="sub-menu">
+	<li id="menu-item-6068" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6068"><a href="/our-programs/#Food">Food</a>
+	<ul class="sub-menu">
+		<li id="menu-item-3752" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3752"><a href="https://www.coalitionforthehomeless.org/our-programs/food/grand-central-food-program/">Grand Central Food Program</a></li>
+	</ul>
+</li>
+	<li id="menu-item-6061" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6061"><a href="/our-programs/#CrisisServices">Crisis Services</a>
+	<ul class="sub-menu">
+		<li id="menu-item-3751" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3751"><a href="https://www.coalitionforthehomeless.org/our-programs/crisis-services/eviction-prevention/">Eviction Prevention</a></li>
+		<li id="menu-item-3749" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3749"><a href="https://www.coalitionforthehomeless.org/our-programs/crisis-services/crisis-intervention/">Crisis Intervention</a></li>
+		<li id="menu-item-3750" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3750"><a href="https://www.coalitionforthehomeless.org/our-programs/crisis-services/client-advocacy-program-2/">Client Advocacy Program</a></li>
+		<li id="menu-item-22250" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22250"><a href="https://www.coalitionforthehomeless.org/our-programs/crisis-services/emergency-mail-program/">Emergency Mail Program</a></li>
+	</ul>
+</li>
+	<li id="menu-item-6063" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6063"><a href="/our-programs/#Housing">Housing</a>
+	<ul class="sub-menu">
+		<li id="menu-item-3745" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3745"><a href="https://www.coalitionforthehomeless.org/our-programs/housing/scattered-site-housing-program/">Scattered Site Housing Program</a></li>
+		<li id="menu-item-3747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3747"><a href="https://www.coalitionforthehomeless.org/our-programs/housing/coalition-houses/">Coalition Houses</a></li>
+		<li id="menu-item-3748" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3748"><a href="https://www.coalitionforthehomeless.org/our-programs/housing/bridge-building/">Bridge Building</a></li>
+	</ul>
+</li>
+	<li id="menu-item-6065" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6065"><a href="/our-programs/#JobTraining">Job Training</a>
+	<ul class="sub-menu">
+		<li id="menu-item-4112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4112"><a href="https://www.coalitionforthehomeless.org/our-programs/first-step-job-training/first-step/">First Step Job Training Program</a></li>
+	</ul>
+</li>
+	<li id="menu-item-6066" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6066"><a href="/our-programs/#Youth">Youth Programs</a>
+	<ul class="sub-menu">
+		<li id="menu-item-4113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4113"><a href="https://www.coalitionforthehomeless.org/our-programs/youth/camp-homeward-bound/">Camp Homeward Bound</a></li>
+		<li id="menu-item-4111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4111"><a href="https://www.coalitionforthehomeless.org/our-programs/youth/bound-for-success/">Bound for Success</a></li>
+	</ul>
+</li>
+	<li id="menu-item-6067" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6067"><a href="/our-programs/#Advocacy">Advocacy</a></li>
+</ul>
+</li>
+<li id="menu-item-428" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-428"><a href="https://www.coalitionforthehomeless.org/the-latest/">The Latest</a>
+<ul class="sub-menu">
+	<li id="menu-item-1701" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1701"><a href="https://www.coalitionforthehomeless.org/the-latest/news/">News</a></li>
+	<li id="menu-item-13282" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13282"><a href="https://www.coalitionforthehomeless.org/the-latest/todays-action/">Today’s Action</a></li>
+	<li id="menu-item-1702" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1702"><a href="https://www.coalitionforthehomeless.org/the-latest/cfh-blog/">Blog</a></li>
+	<li id="menu-item-1704" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1704"><a href="https://www.coalitionforthehomeless.org/the-latest/voices-from-the-frontline/">Voices from the Frontline</a></li>
+	<li id="menu-item-1700" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1700"><a href="https://www.coalitionforthehomeless.org/the-latest/newsletter/">Newsletter</a></li>
+</ul>
+</li>
+<li id="menu-item-427" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-427"><a href="https://www.coalitionforthehomeless.org/kids-and-teens/">Kids &amp; Teens</a></li>
+<li id="menu-item-497" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-497"><a href="https://www.coalitionforthehomeless.org/videos/">Videos</a></li>
+</ul>			<ul id="menu-social" class="menu"><li id="menu-item-372" class="ss-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-372"><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/NYHomeless">?</a></li>
+<li id="menu-item-371" class="ss-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-371"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/nyhomeless?v=wall&amp;ref=sgm#">?</a></li>
+<li id="menu-item-423" class="ss-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-423"><a target="_blank" rel="noopener noreferrer" href="http://www.youtube.com/user/Cltnfrthhmlss">?</a></li>
+<li id="menu-item-12843" class="ss-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-12843"><a href="http://instagram.com/nyhomeless" target="_blank">?</a></li>
+</ul>		</div>
+	</nav>

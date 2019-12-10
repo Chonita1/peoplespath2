@@ -1,0 +1,123 @@
+element.style {
+}
+header[role=banner] a, footer[role=contentinfo] a, header[role=banner] a:visited, footer[role=contentinfo] a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+input[type=submit].blue, input[type=reset].blue, button.blue, .button.blue {
+    background: #1e2a30;
+}
+input[type=submit]:visited, input[type=reset]:visited, button:visited, .button:visited {
+    color: #fff;
+}
+a, a:visited {
+    color: #4b626e;
+    text-decoration: underline;
+    font-family: 'brandon_grotesquebold','Helvetica',Arial,sans-serif;
+}
+input[type=submit], input[type=reset], button, .button {
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0;
+    padding: 0 35px;
+    font-family: 'brandon_grotesquebold','Helvetica',Arial,sans-serif;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    height: 42px;
+    line-height: 42px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-shadow: none;
+    font-size: 1.7rem;
+    font-weight: 400;
+    -webkit-border-radius: 30px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 30px;
+    -moz-background-clip: padding;
+    border-radius: 30px;
+    background-clip: padding-box;
+    -webkit-transition: background 100ms ease-in;
+    -moz-transition: background 100ms ease-in;
+    -o-transition: background 100ms ease-in;
+    transition: background 100ms ease-in;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+    outline: 0;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+header[role=banner] {
+    position: relative;
+    background: #f7f6f0;
+    text-align: left;
+}
+header[role=banner], footer[role=contentinfo] {
+    font-family: 'brandon_grotesquebold','Helvetica',Arial,sans-serif;
+    font-size: 13px;
+}
+body {
+    color: #000;
+    font-family: 'PT Serif',serif;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    margin: 0;
+    line-height: 1.4;
+}
+html {
+    font-size: 62.5%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+}
+html {
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+user agent stylesheet
+html {
+    color: -internal-root-color;
+}
+input[type=submit]:visited:before, input[type=reset]:visited:before, button:visited:before, .button:visited:before {
+    color: #fff;
+}
+input[type=submit]:before, input[type=reset]:before, button:before, .button:before {
+    content: '\f105';
+    font: 150%/42px FontAwesome;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+::selection {
+    background: #1e2a30;
+    color: #fff;
+    text-shadow: none;
+}

@@ -1,0 +1,114 @@
+element.style {
+}
+header[role=banner] .primary-nav #menu-primary-nav>li>a {
+    white-space: nowrap;
+    display: block;
+}
+header[role=banner] a, footer[role=contentinfo] a, header[role=banner] a:visited, footer[role=contentinfo] a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+a, a:visited {
+    color: #4b626e;
+    text-decoration: underline;
+    font-family: 'brandon_grotesquebold','Helvetica',Arial,sans-serif;
+}
+p a, ol a, ul a, .entry-content a {
+    color: #4b626e;
+    font-family: 'brandon_grotesquebold','Helvetica',Arial,sans-serif;
+    text-decoration: underline;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+    outline: 0;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+header[role=banner] .primary-nav #menu-primary-nav>li {
+    width: 100px;
+    text-align: center;
+    line-height: 38px;
+    z-index: 1000;
+}
+user agent stylesheet
+li {
+    text-align: -webkit-match-parent;
+}
+nav ul, nav ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}
+header[role=banner] .primary-nav {
+    background-color: #1e2a30;
+    font-family: 'brandon_grotesquemedium','Helvetica',Arial,sans-serif;
+}
+.uppercase-text {
+    text-transform: uppercase;
+}
+header[role=banner] {
+    position: relative;
+    background: #f7f6f0;
+    text-align: left;
+}
+header[role=banner], footer[role=contentinfo] {
+    font-family: 'brandon_grotesquebold','Helvetica',Arial,sans-serif;
+    font-size: 13px;
+}
+body {
+    color: #000;
+    font-family: 'PT Serif',serif;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    margin: 0;
+    line-height: 1.4;
+}
+html {
+    font-size: 62.5%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+}
+html {
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+user agent stylesheet
+html {
+    color: -internal-root-color;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+::selection {
+    background: #1e2a30;
+    color: #fff;
+    text-shadow: none;
+}
