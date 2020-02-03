@@ -121,6 +121,36 @@
      </div>
   </div>
  </div>
+ 
+ <section>
+  <form id="get-help" action="test-hello.php" name="get-help">
+    <p>Please fill out the following information to get help</p>
+    First Name
+    <input id="fn" type="text" name="fn"><br><br>
+    Last Name
+    <input id="ln" type="text" name="ln"><br><br>
+    Telephone
+    <input id="tel" type="tel" name="tel"><br><br>
+    You identify as:
+    <input type="radio" name="gender" id="female" value="female">
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="non-binary" value="non-binary">
+    <label for="non-binary">Non-Binary</label><br><br>
+    Check all that apply:<br>
+    <input type="checkbox" name="status" id="youth" value="youth">
+    <label for="youth">Youth</label>
+    <input type="checkbox" name="status" id="veteran" value="veteran">
+    <label type="veteran">Veteran</label>
+
+    <input type="submit">
+  </form>
+  <div id="orginfo">
+  
+  </div>
+  
+ </section>
   
 </main><!-- /.container -->
 
@@ -132,7 +162,8 @@
   <a href="tel:1-718-815-7284">1-718-815-7284</a>
   <a target="_self" href="mailto:info@peoplespath.org">info@peoplespath.org</a>
    </footer>  
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
       
   <script src="js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -142,6 +173,10 @@
        $(this).css("background-color", "green");
        }, function(){
        $(this).css("background-color", "red");
+     });
+    
+     $("#gethelp").click(function(){
+      $("#get-help").css("display", "block");
      });
     
      $("#volunteer-now, #volunteer-now-2").hover(function(){
@@ -154,6 +189,49 @@
        $(this).css("background-color", "green");
        }, function(){
        $(this).css("background-color", "#fb9b04");
+     });
+     $("#get-help").submit(function(event){
+       event.preventDefault();
+       var statusList = [];
+       $.each($("#get-help input[name='status']:checked"),
+              function(){
+                statusList.push($(this).val());
+             });
+       var formData = {
+         'first': $('#get-help #fn').val(),
+         'last': $('#get-help #ln').val(),
+         'tel': $('#get-help #tel').val(),
+         'gender': $('#get-help input[name="gender"]:checked').val(),
+         'status': statusList
+       };
+       console.log('1');
+       $.ajax({
+         url: "gethelp.php",
+         type: "POST",
+         data: formData,
+         dataType: "json",
+         success: function (data, success, jqXHR){
+           var orgs = "";
+           if(data["response"].length > 0) {
+            orgs = "<br>Contact the following organizations for help<br>";
+            data["response"].forEach(function(currObj) {
+              for (var currProp in currObj) {
+                if (currObj.hasOwnProperty(currProp)) {
+                  if (currProp != "id") {
+                    orgs += "<br>" + currObj[currProp];
+                  }
+                }
+              }
+              orgs += "<br>";
+            });
+           }
+           $("#orginfo").html("Thank you. Someone will contact you in 24 hours." + orgs);
+         },
+         error: function (jqXHR, textStatus, errorThrown){
+         }
+       });
+       $("#get-help").css("display", "none");
+       $("#orginfo").css("display", "block");
      });
    });
   </script>

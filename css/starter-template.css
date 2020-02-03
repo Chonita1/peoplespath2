@@ -11,6 +11,17 @@ body {
     height: 40px;
   }
 }
+@media (min-width: 1500px) {
+  #icons img {
+    width: 60px;
+    height: 60px;
+  }
+ 
+ body {
+   font-size: 1.2em;
+ }
+ 
+}
 @media (max-width: 899px) {
   #icons img {
     width: 30px;
@@ -144,3 +155,10 @@ footer {
  footer address {
  width: 34%;
  }
+
+#get-help {
+ display: none;
+}
+#orginfo {
+ display: none;
+}
